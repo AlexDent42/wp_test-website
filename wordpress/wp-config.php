@@ -22,6 +22,9 @@
 /** Имя базы данных для WordPress */
 define( 'DB_NAME', 'wp_testdb' );
 
+/* Cache activation*/
+define('WP_CACHE', true);
+
 /** Имя пользователя MySQL */
 define( 'DB_USER', 'root' );
 
